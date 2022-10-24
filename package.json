@@ -1,0 +1,19 @@
+{
+  "name": "amimir",
+  "version": "1.0.0",
+  "description": "Calculadora de ciclos de sueño",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Aida",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
