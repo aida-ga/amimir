@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Comforta;
+    src: url('/fonts/Comfortaa-Regular.ttf');
+}
+
+body {
+    background-color: transparent;
+    font-family: Comforta, sans-serif;
+    background-image: url("/img/fondo4.jpg"),
+        linear-gradient(#39254e, #39254e);
+    background-blend-mode: overlay;
+    color: #0a0614;
+}
+
+#base {
+    background-color: #77619be8;
+    max-width: fit-content;
+    padding: 30px;
+    border-radius: 1em;
+
+
+}
+
+#results td {
+    color: #d993a7;
+    background-color: #77619be8;
+    font-size: larger;
+    border-radius: 0.7em;
+    padding: 10px;
+
+}
+
+#results table {
+    border-spacing: 20px;
+    border-collapse: separate;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+#aMimir {
+    font-family: Comforta, sans-serif;
+    background-color: #683657d8;
+    border-radius: 1em;
+    padding: 10px;
+    border: none;
+    box-shadow: 3px 3px 2px #39254eb9;
+    color: #d993a7;
+
+}
+
+
+#dormirAhora {
+    font-family: 'Comforta', sans-serif;
+    background-color: #683657d8;
+    border-radius: 1em;
+    padding: 10px;
+    border: none;
+    box-shadow: 3px 3px 2px #39254eb9;
+    color: #d993a7;
+
+}
+
+#inputHora {
+    font-family: 'Comforta', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: #3a2550cc;
+    color: #0a0614;
+}
+
+
+/* HEX CODE COLORES
+ ??: #734b9b
+Texto: #0a0614 
+Morado: #3a2550
+Lila: #6b5987
+Rosa: #d993a7
+Melocotón: #f5ccb3
+Amarillo: #ffffc9
+Ciruela: #683657d8
+ */
